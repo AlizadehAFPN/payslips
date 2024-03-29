@@ -1,47 +1,91 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Payslips App
 
-## Available Scripts
+Payslips App is a modern, cross-platform mobile application designed to streamline the management and viewing of payslips. Built with React and integrated with Capacitor to enable native capabilities, this app provides a seamless experience across both Android and iOS devices. Whether you're an employer looking to distribute payslips efficiently or an employee wanting a convenient way to access your payslip information, Payslips App has you covered.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- View detailed payslip information in a user-friendly format.
+- Securely download and store payslips for offline access.
+- Easy navigation and a clean, intuitive interface.
+- Cross-platform support for both Android and iOS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before you begin, ensure you have the following installed:
+- Node.js (Preferably the latest LTS version)
+- npm (Comes with Node.js) or Yarn
+- Capacitor CLI (Installed via npm/yarn)
+- Android Studio and SDK for Android development
+- Xcode for iOS development (macOS only)
 
-### `npm run build`
+### Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/yourusername/payslips-app.git
+cd payslips-app
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies**
 
-### `npm run eject`
+Using npm:
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Or using Yarn:
+```bash
+yarn
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Build the project**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+yarn build # or npm run build
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. **Sync Capacitor plugins and platforms**
 
-## Learn More
+```bash
+npx cap sync
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Running the App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# payslips
+- **Android:**
+
+First, open the project in Android Studio:
+```bash
+npx cap open android
+```
+Then, run the app using Android Studio's built-in run functionality, targeting either a connected device or an emulator.
+
+- **iOS (macOS only):**
+
+Open the project in Xcode:
+```bash
+npx cap open ios
+```
+Run the app using Xcode targeting either a connected iOS device or an emulator.
+
+## Contributing
+
+We welcome contributions to the Payslips App! Please read our contributing guidelines and code of conduct before submitting pull requests or issues.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/yourusername/payslips-app/tags).
+
+## Authors
+
+- **Your Name** - *Initial Work* - [AlizadehAFPN](https://github.com/AlizadehAFPN)
+
+See also the list of [contributors](https://github.com/yourusername/payslips-app/contributors) who participated in this project.
+
+---
