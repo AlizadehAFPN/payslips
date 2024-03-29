@@ -84,7 +84,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-- **Your Name** - *Initial Work* - [AlizadehAFPN](https://github.com/AlizadehAFPN)
+[AlizadehAFPN](https://github.com/AlizadehAFPN)
 
 See also the list of [contributors](https://github.com/yourusername/payslips-app/contributors) who participated in this project.
 
