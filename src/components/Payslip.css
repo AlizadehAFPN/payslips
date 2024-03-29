@@ -1,0 +1,90 @@
+/* src/components/PayslipList.css adjustments for vertical alignment */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the items horizontally in the container */
+  padding: 25px;
+  background-color: #f7f7f7;
+  margin-top: 10px;
+}
+
+.list-title {
+  width: 100%; /* Ensures the title stretches across the container */
+  text-align: center; /* Centers the title text */
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.payslip-list {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%; /* Ensures the grid takes up the full container width */
+}
+
+.payslip-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.payslip-period {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* src/components/PayslipDetail.css */
+.detail-container {
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.back-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.payslip-info {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.payslip-title {
+  color: #333;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.download-button {
+  display: inline-block;
+  background-color: #28a745; /* Green, consider adjusting based on your UI theme */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.download-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
